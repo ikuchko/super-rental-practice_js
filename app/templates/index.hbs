@@ -3,14 +3,14 @@
 We hope you find exactly what you're looking for in a place to stay.
 
 {{#each model.announcements as |announcement|}}
-  {{announcement-tile announcement=announcement deleteAnnouncement="destroyAnnouncement"}}
+  {{announcement-tile announcement=announcement updateAnnouncement="updateAnnouncement" deleteAnnouncement="destroyAnnouncement"}}
 {{/each}}
 
 {{new-announcement save2="saveAnnouncement"}}
 
 <ul>
   {{#each model.rentals as |rental|}}
-     {{rental-tile rental=rental eatToast="destroyRental"}}
+     {{rental-tile rental=rental update="update" eatToast="destroyRental"}}
   {{/each}}
 </ul>
 
