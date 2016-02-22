@@ -9,13 +9,5 @@ export default Ember.Component.extend({
     imageHide: function() {
       this.set('isImageShowing', false);
     },
-    delete(rental) {
-      if (confirm('Are you sure?')) {
-        this.sendAction('eatToast', rental);
-      }
-    },
-    update(rental, params) {
-      this.sendAction('update', rental, params);
-    }
   }
 });
