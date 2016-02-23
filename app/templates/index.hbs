@@ -1,4 +1,5 @@
-<h1> Welcome to Super Rentals </h1>
+
+<h1>Welcome to Super Rentals</h1>
 
 We hope you find exactly what you're looking for in a place to stay.
 
@@ -8,7 +9,7 @@ We hope you find exactly what you're looking for in a place to stay.
 
 {{new-announcement save2="saveAnnouncement"}}
 
-<ul>
+<ul class="list-unstyled">
   {{#each model.rentals as |rental|}}
      {{rental-tile rental=rental}}
   {{/each}}

@@ -1,8 +1,0 @@
-{"cities": [{
-  "name": "Seattle",
-  "attractions": ["Space Needle", "Pike Place"]
-  }, {
-  "name": "Corvallis",
-  "attractions": ["OSU", "Courthouse"]
-  }]
-}
