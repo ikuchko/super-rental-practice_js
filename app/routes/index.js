@@ -37,7 +37,6 @@ export default Ember.Route.extend({
     },
 
     updateAnnouncement(announcement, params) {
-      debugger;
       announcement.set('text', params.text);
       announcement.save();
       this.transitionTo('index');
